@@ -1,1 +1,6 @@
-# aula02-calculadora-de-comissao-2026
+# calculadora de comissao
+
+Aula: 02
+Data: 25/07/2026
+Autor: Fernando Leonid
+
