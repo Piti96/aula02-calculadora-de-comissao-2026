@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #323330;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+main {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #3b3b3b;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    width: 400px;
+    box-shadow: 0 0 24px #323330;
+    border-radius: 6px;
+
+}
+
+.titulo{ 
+    color: #7fdf1e;
+    text-align: center;
+    font-weight: 200
+}
+
+.Caixa-texto {
+    padding: 8px;
+    border-radius: 4px;
+
+
+}
+
+.botao-calcular {
+    padding: 8px;   
+    border-radius: 4px;
+    text-align: center;
+    background-color: #7fdf1e;
+    border: none;
+    cursor: pointer;
+
+}
+
+.resultado {
+    height: 100px;
+    width: 100%;
+    border-radius: 4px;
+    border: 3px solid #7fdf1e;
+    color: white;
+    padding: 8px;
+
+}
