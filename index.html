@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
     <title>Calculadora de Comissão</title>
 </head>
 <body>
     <main>
         <form class="container">
             <h1 class="titulo">Calculadora de Comissão</h1>
-            <input class="Caixa-texto" type="text" placeholder="Digite seu nome:">
-            <input class="Caixa-texto" type="number" placeholder="Digite o valor de vendas:">
-            <button class="botao-calcular" type="button">Calcular salário</button>
-            <div class="resultado">O resultado aparecerá aqui...</div>
+            <input id="caixa-nome" class="Caixa-texto" type="text" placeholder="Digite seu nome:">
+            <input id="caixa-valor" class="Caixa-texto" type="number" placeholder="Digite o valor de vendas:">
+            <button id="botao-calcular" class="botao-calcular" type="button">Calcular salário</button>
+            <div id="resultado" class="resultado">O resultado aparecerá aqui...</div>
         </form>
     </main>
     
